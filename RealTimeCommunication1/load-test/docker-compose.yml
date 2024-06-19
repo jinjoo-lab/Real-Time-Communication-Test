@@ -1,0 +1,47 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ..
+    container_name: backend
+    ports:
+      - "8080:8080"
+    networks:
+      - app-tier
+    restart: always
+  influxdb:
+    image: bitnami/influxdb:1.8.5
+    platform: linux/amd64
+    container_name: influxdb
+    ports:
+      - "8086:8086"
+      - "8085:8088"
+    environment:
+      - INFLUXDB_ADMIN_USER_PASSWORD=bitnami123
+      - INFLUXDB_ADMIN_USER_TOKEN=admintoken123
+      - INFLUXDB_HTTP_AUTH_ENABLED=false
+      - INFLUXDB_DB=k6db
+    networks:
+      - app-tier
+  grafana:
+    image: bitnami/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - app-tier
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    restart: always
+    user: root
+    ports:
+      - "9090:9090"
+    networks:
+      - app-tier
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+networks:
+  app-tier:
+    driver: bridge
