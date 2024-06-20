@@ -1,7 +1,7 @@
 ### Velog로 보기
-![실시간 통신 분석 프로젝트 - 이론](https://velog.io/@jinjoo-lab/%EC%8B%A4%EC%8B%9C%EA%B0%84-%ED%86%B5%EC%8B%A0-%EB%B6%84%EC%84%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%B4%EB%A1%A0)
-![실시간 통신 분석 프로젝트 - Spring 구현 코드](https://velog.io/@jinjoo-lab/%EC%8B%A4%EC%8B%9C%EA%B0%84-%ED%86%B5%EC%8B%A0-%EB%B6%84%EC%84%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%81-%EB%B0%A9%EB%B2%95%EC%9D%98-%EA%B5%AC%ED%98%84-%EC%BD%94%EB%93%9C)
-![실시간 통신 분석 프로젝트 - 테스트 분석](https://velog.io/@jinjoo-lab/%EC%8B%A4%EC%8B%9C%EA%B0%84-%ED%86%B5%EC%8B%A0-%EB%B6%84%EC%84%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A7%80%ED%91%9C-%EB%B6%84%EC%84%9D)
+[실시간 통신 분석 프로젝트 - 이론](https://velog.io/@jinjoo-lab/%EC%8B%A4%EC%8B%9C%EA%B0%84-%ED%86%B5%EC%8B%A0-%EB%B6%84%EC%84%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%B4%EB%A1%A0)
+[실시간 통신 분석 프로젝트 - Spring 구현 코드](https://velog.io/@jinjoo-lab/%EC%8B%A4%EC%8B%9C%EA%B0%84-%ED%86%B5%EC%8B%A0-%EB%B6%84%EC%84%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%81-%EB%B0%A9%EB%B2%95%EC%9D%98-%EA%B5%AC%ED%98%84-%EC%BD%94%EB%93%9C)
+[실시간 통신 분석 프로젝트 - 테스트 분석](https://velog.io/@jinjoo-lab/%EC%8B%A4%EC%8B%9C%EA%B0%84-%ED%86%B5%EC%8B%A0-%EB%B6%84%EC%84%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A7%80%ED%91%9C-%EB%B6%84%EC%84%9D)
 
 ![image](https://github.com/jinjoo-lab/Real-Time-Communication-Test/assets/84346055/4251618a-2eb9-491f-974c-66deba267104)
 
