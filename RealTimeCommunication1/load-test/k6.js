@@ -82,8 +82,6 @@ function initializeStompClient(callback) {
 
     ws.connect(stompUrl, {}, function (socket) {
         socket.on('open', function () {
-            console.log('WebSocket connection opened');
-
             // STOMP CONNECT 메시지를 전송합니다.
             socket.send('CONNECT\naccept-version:1.0,1.1,2.0\n\n\x00\n');
 
@@ -95,12 +93,8 @@ function initializeStompClient(callback) {
             callback(socket);
         });
 
-        socket.on('message', function (message) {
-        });
-
-        socket.on('close', function () {
-        });
-
+        socket.on('message', function (message) {});
+        socket.on('close', function () {});
         stompClient = socket; // WebSocket 객체를 stompClient에 할당
     });
 }
