@@ -92,7 +92,6 @@ function initializeStompClient(callback) {
             // WebSocket 연결이 열렸을 때의 콜백 함수 호출
             callback(socket);
         });
-
         socket.on('message', function (message) {});
         socket.on('close', function () {});
         stompClient = socket; // WebSocket 객체를 stompClient에 할당
